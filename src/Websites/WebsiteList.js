@@ -12,8 +12,9 @@ class WebsiteList extends Component {
     }
 
     run = () => {
-        const urls = this.props.websites;
+        const urls = this.props.websites || [];
         const statuses = [];
+
         urls.forEach( website => {
             fetch(website, {mode : 'no-cors'})
                 .then(data => {

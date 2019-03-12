@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Container, Button } from 'semantic-ui-react';
+import { Container } from 'semantic-ui-react';
 import CSVReader from 'react-csv-reader'
 
 import WebsiteList from './Websites/WebsiteList'
