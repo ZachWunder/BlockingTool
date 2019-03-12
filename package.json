@@ -3,7 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "ping": "^0.2.2",
     "react": "^16.8.3",
+    "react-csv-reader": "^1.2.2",
     "react-dom": "^16.8.3",
     "react-scripts": "2.1.5",
     "semantic-ui-react": "^0.85.0"
