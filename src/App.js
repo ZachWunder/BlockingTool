@@ -12,6 +12,7 @@ class App extends Component {
 
     logWebsites = websites => {
         this.setState({ websites: websites })
+        this.forceUpdate()
     }
 
     render() {
@@ -23,7 +24,7 @@ class App extends Component {
                     onFileLoaded={this.logWebsites}
                     inputId="Upload Lists"
                 />
-            <WebsiteList websites={websites[0]}/>
+                <WebsiteList websites={websites[0]}/>
             </Container>
         );
     }

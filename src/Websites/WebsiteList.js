@@ -13,6 +13,7 @@ class WebsiteList extends Component {
 
     run = () => {
         const urls = this.props.websites || [];
+        
         const statuses = [];
 
         urls.forEach( website => {
@@ -42,7 +43,6 @@ class WebsiteList extends Component {
 
     render () {
         const { statusList } = this.state;
-        console.log(statusList)
         return (
             <div>
                 <Button onClick={this.run}>Run</Button>

@@ -1,10 +1,6 @@
 import React from 'react';
 import { Table } from 'semantic-ui-react';
 
-// Import Allowed (Green checkmark) and Blocked (Red X)
-// Add Image in website map.
-
-
 export default props => {
     const WebsiteList = props.websiteStatus;
     console.log(WebsiteList)
@@ -33,22 +29,3 @@ export default props => {
         </Table>
     )
 }
-
-
-
-
-
-/*
-<Item.Group>
-    {
-        testWebsites.map(website => (
-            <Item>
-                <Item.Content verticalAlign='middle'>
-                    <Item.Header as='a'>{website.url}</Item.Header>
-                    <Item.Description>{website.blocked ? "Blocked" : "Not Blocked"}</Item.Description>
-                </Item.Content>
-            </Item>
-        ))
-    }
-</Item.Group>
-*/

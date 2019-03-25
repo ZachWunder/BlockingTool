@@ -1,4 +1,9 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Blocked Website Diagnostic Tool
+
+## Website list format and example:
+The list of websites must be full URL's, including https:// or http://.
+Each website must be comma-separated without and leading or trailing whitespace.
+An example can be found under exampleWebsites.csv
 
 ## Available Scripts
 
